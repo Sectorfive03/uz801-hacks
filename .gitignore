@@ -1,0 +1,35 @@
+# Downloads and large files
+downloads/
+
+# EDL tool (large, install separately)
+tools/edl/
+
+# Binary files (too large for git)
+*.img
+*.bin
+*.mbn
+*.zip
+*.tar.gz
+*.7z
+
+# Logs
+logs/
+
+# Temp files
+*.tmp
+*.log
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+
+# Zadig (Windows tool)
+zadig.exe
