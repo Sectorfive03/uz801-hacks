@@ -7,7 +7,7 @@
 - **Android**: 4.4.4 KitKat (userdebug, test-keys)
 - **Build**: V2.3.15.1
 - **Root**: Yes (uid=0, ships rooted)
-- **Board**: FY_UZ801 (version unknown, likely V2.x based on build string)
+- **Board**: FY_UZ801_V3.31
 - **RAM**: ~388MB
 - **Storage**: ~3.8GB eMMC
 - **USB PID**: 90B6 (Android), 9008 (EDL)
@@ -185,7 +185,7 @@ The PBL (Primary BootLoader) in EDL mode only allows ONE Sahara session. If it f
 1. **Use QFIL on Windows** for flashing, not bkerler/edl - the Windows pyusb/libusb stack has issues with EDL writes
 2. **Keep stock firmware folder** (`stock-uz801/`) as emergency recovery - never delete it
 3. **Fastboot is unreliable** on this device - plan for EDL-based recovery
-4. **The board version is likely V2.x** (build string V2.3.15.1) - not V3.0 which community says is best for Linux
+4. **The board version is FY_UZ801_V3.31** - community knows V3.0 works well for Linux, V3.31 may need different device tree. Build string shows V2.3.15.1 which refers to firmware version, not board version.
 5. **Before attempting Linux flash**: Make sure fastboot mode can be entered reliably. If not, try holding the physical reset button.
 6. **After any failed flash**: Power cycle completely before trying again. Don't chain flash attempts.
 7. **Test fastboot first**: Before downloading OpenStick images, verify `fastboot devices` works. If it doesn't, you need to solve the fastboot entry problem before attempting to flash.

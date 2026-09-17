@@ -10,7 +10,7 @@
 | GPU | Adreno 306 |
 | RAM | ~388MB (512MB nominal) |
 | Storage | ~3.8GB eMMC |
-| Board | FY_UZ801 (check silkscreen: V2.1, V3.0, or V3.2) |
+| Board | FY_UZ801_V3.31 |
 | Android | 4.4.4 KitKat (userdebug, test-keys) |
 | Build | V2.3.15.1 |
 
